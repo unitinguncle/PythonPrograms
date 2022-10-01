@@ -13,7 +13,7 @@
 
 #Sample output 3: False
 
--------------------------------------
+#-------------------------------------
 def is_syntactically_correct(only_paran: str) -> bool:
     ## Write Code Here
     opening=0
