@@ -14,3 +14,12 @@ def isodddigit(num:int) -> bool:
     if digitno%2!=0:
         return True
     return False
+def total_positive_odd_digit_count(num):
+    #Write your code here
+    count = 0
+    for x in range(1,num):
+        if isodddigit(x):
+            count += 1
+    return count
+
+total_positive_odd_digit_count(45)
